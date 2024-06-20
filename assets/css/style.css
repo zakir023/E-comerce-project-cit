@@ -1,0 +1,118 @@
+/* header styling */
+/* styles.css */
+
+/* General styling for the header menu */
+/* styles.css */
+
+/* General styling for the header menu */
+
+/* .navbar{
+    display: flex;
+} */
+.collapse , .navbar,.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    
+}
+.navbar-nav{
+  list-style: none;
+
+}
+.nav-link{
+    text-decoration: none;
+}
+
+
+
+
+#navbarSupportedContent{
+ 
+   
+}
+
+.header_menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header_menu .navbar {
+    padding: 1rem 0;
+}
+
+.header_menu .navbar-brand img {
+    width: 120px;
+}
+
+.header_menu .navbar-toggler {
+    border: none;
+}
+
+.header_menu .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.header_menu .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s;
+}
+
+.header_menu .navbar-nav .nav-link:hover,
+.header_menu .navbar-nav .nav-link:focus {
+    color: #007bff;
+}
+
+.header_menu .navbar-nav .active .nav-link {
+    color: #007bff;
+}
+
+.header_menu .search .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header_menu .search .btn-outline-primary:hover,
+.header_menu .search .btn-outline-primary:focus {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.header_menu .cart i {
+    color: #007bff;
+}
+
+.header_menu .cart .badge-primary {
+    background-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .header_menu .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .header_menu .navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .header_menu .navbar-nav {
+        text-align: center;
+    }
+
+    .header_menu .navbar-nav .nav-link {
+        padding: 0.5rem 0;
+    }
+
+    .header_menu .search,
+    .header_menu .cart {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
